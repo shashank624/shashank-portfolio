@@ -53,7 +53,7 @@ nav {
     padding: 18px 8%;
     background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(12px);
-    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
 
 }
 
@@ -198,7 +198,7 @@ nav ul li a:hover {
 .btn:hover {
 
     transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(37,99,235,.4);
+    box-shadow: 0 12px 25px rgba(37, 99, 235, .4);
 
 }
 
@@ -231,13 +231,13 @@ nav ul li a:hover {
     border-radius: 50%;
     object-fit: cover;
     border: 8px solid white;
-    box-shadow: 0 20px 50px rgba(37,99,235,.35);
+    box-shadow: 0 20px 50px rgba(37, 99, 235, .35);
     animation: float 3s ease-in-out infinite;
     transition: .4s;
 
 }
 
-.right img:hover{
+.right img:hover {
 
     transform: scale(1.05);
 
@@ -348,7 +348,7 @@ section h2 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top:30px;
+    margin-top: 30px;
 
 }
 
@@ -357,18 +357,18 @@ section h2 {
     background: white;
     padding: 20px 40px;
     border-radius: 18px;
-    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
     transition: .35s;
     font-weight: 600;
     cursor: pointer;
 
 }
 
-.box:hover{
+.box:hover {
 
-    background:#2563eb;
-    color:white;
-    transform:translateY(-10px) scale(1.05);
+    background: #2563eb;
+    color: white;
+    transform: translateY(-10px) scale(1.05);
 
 }
 
@@ -384,43 +384,44 @@ body.dark .box {
 /* Projects */
 
 
-#projects{
+#projects {
 
-    text-align:center;
-    background:linear-gradient(135deg,#f8fafc,#eef6ff);
-    border-radius:25px;
+    text-align: center;
+    background: linear-gradient(135deg, #f8fafc, #eef6ff);
+    border-radius: 25px;
+
+}
+
+body.dark #projects {
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
 
 }
 
-body.dark #projects{
-
-    background:linear-gradient(135deg,#0f172a,#1e293b);
-
-}
 .project {
 
-    background:white;
-    padding:30px;
-    border-radius:20px;
-    margin:20px;
-    max-width:360px;
-    display:inline-block;
-    vertical-align:top;
-    box-shadow:0 12px 30px rgba(0,0,0,.12);
-    transition:.35s;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+    max-width: 360px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .12);
+    transition: .35s;
 
 }
 
-.project:hover{
+.project:hover {
 
-    transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(37,99,235,.25);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(37, 99, 235, .25);
 
 }
 
-.project .btn{
+.project .btn {
 
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 body.dark .project {
@@ -443,11 +444,11 @@ body.dark .project {
 
 /* Contact */
 
-#contact i{
+#contact i {
 
-    color:#38bdf8;
-    margin-right:10px;
-    font-size:22px;
+    color: #38bdf8;
+    margin-right: 10px;
+    font-size: 22px;
 
 }
 
@@ -487,13 +488,13 @@ body.dark .project {
 
 
 /* Footer */
-footer{
+footer {
 
-    background:#020617;
-    color:white;
-    text-align:center;
-    padding:25px;
-    font-size:15px;
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
 
 }
 
@@ -540,11 +541,11 @@ footer{
     }
 
 
-nav ul.active {
+    nav ul.active {
 
-    display:flex;
+        display: flex;
 
-}
+    }
 
 
 
@@ -571,15 +572,15 @@ nav ul.active {
 
     }
 
-.left h1 {
+    .left h1 {
 
-    font-size: 40px;
-    margin: 15px 0;
-    text-shadow: 2px 2px 10px rgba(0,0,0,.1);
+        font-size: 40px;
+        margin: 15px 0;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
 
-}
+    }
 
- 
+
 
 
     .right img {
@@ -612,26 +613,27 @@ nav ul.active {
 
 body.dark .right img {
 
-    border-color:#38bdf8;
+    border-color: #38bdf8;
 
 }
+
 /* Scrollbar */
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
 
-    width:10px;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-    background:#2563eb;
-    border-radius:20px;
+    width: 10px;
 
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-thumb {
 
-    background:#e2e8f0;
+    background: #2563eb;
+    border-radius: 20px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background: #e2e8f0;
 
 }
